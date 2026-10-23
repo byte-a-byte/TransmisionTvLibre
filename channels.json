@@ -4,5 +4,101 @@
     "name": "CN City En Vivo",
     "categories": ["DIBUJOS"],
     "streamUrl": "https://envivo.cncity.live/hls/envivo.m3u8"
+  },
+  {
+    "id": 2,
+    "name": "Cartoon Network Latin America",
+    "categories": ["DIBUJOS"],
+    "streamUrl": "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/cartoonnetwork.stream/chunks.m3u8"
+  },
+  {
+    "id": 3,
+    "name": "Boomerang (United States)",
+    "categories": ["DIBUJOS"],
+    "streamUrl": "http://23.237.104.106:8080/USA_BOOMERANG/index.m3u8"
+  },
+  {
+    "id": 4,
+    "name": "Nickelodeon en espanol",
+    "categories": ["DIBUJOS"],
+    "streamUrl": "https://jmp2.uk/plu-5d8d08395f39465da6fb3ec4.m3u8"
+  },
+  {
+    "id": 5,
+    "name": "Disney Junior (Ingles)",
+    "categories": ["DIBUJOS"],
+    "streamUrl": "http://tvsen5.aynascope.net/disney/index.m3u8"
+  },
+  {
+    "id": 6,
+    "name": "Tooncast",
+    "categories": ["DIBUJOS"],
+    "streamUrl": "https://streaming.onnethn.com/TOONCAST/playlist.m3u8"
+  },
+  {
+    "id": 7,
+    "name": "Bob Esponja Pantalones Cuadrados",
+    "categories": ["DIBUJOS"],
+    "streamUrl": "https://jmp2.uk/plu-6254598f5083f800076d8563.m3u8"
+  },
+  {
+    "id": 8,
+    "name": "Avatar: La Leyenda de Aang",
+    "categories": ["DIBUJOS"],
+    "streamUrl": "https://jmp2.uk/plu-6759ee82bd523200083b4f0f.m3u8"
+  },
+  {
+    "id": 9,
+    "name": "BabyFirst",
+    "categories": ["DIBUJOS"],
+    "streamUrl": "http://181.78.106.127:5000/play/a0sa/index.m3u8"
+  },
+  {
+    "id": 10,
+    "name": "Pluto TV Kids",
+    "categories": ["DIBUJOS"],
+    "streamUrl": "https://jmp2.uk/plu-5dd6dae8ce788b0009eaf77b.m3u8"
+  },
+  {
+    "id": 11,
+    "name": "Pluto TV Junior",
+    "categories": ["DIBUJOS"],
+    "streamUrl": "https://jmp2.uk/plu-5dcde2ac4bc6c500094ab45b.m3u8"
+  },
+  {
+    "id": 12,
+    "name": "Naruto en espanol",
+    "categories": ["ANIME"],
+    "streamUrl": "https://jmp2.uk/plu-5ee92e72fb286e0007285fec.m3u8"
+  },
+  {
+    "id": 13,
+    "name": "Naruto Shippuden",
+    "categories": ["ANIME"],
+    "streamUrl": "https://jmp2.uk/plu-64c92f965580090008084968.m3u8"
+  },
+  {
+    "id": 14,
+    "name": "One Piece",
+    "categories": ["ANIME"],
+    "streamUrl": "https://jmp2.uk/plu-5ff4b9ccf938f8000779eb99.m3u8"
+  },
+  {
+    "id": 15,
+    "name": "Detective Conan",
+    "categories": ["ANIME"],
+    "streamUrl": "https://jmp2.uk/plu-629a066860ef810008267b70.m3u8"
+  },
+  {
+    "id": 16,
+    "name": "Yu-Gi-Oh! en espanol",
+    "categories": ["ANIME"],
+    "streamUrl": "https://amg01796-amg01796c18-rakuten-es-7491.playouts.now.amagi.tv/playlist/amg01796-fastmediafast-yugiohees-rakutenes/playlist.m3u8"
+  },
+  {
+    "id": 17,
+    "name": "Pluto TV Anime",
+    "categories": ["ANIME"],
+    "streamUrl": "https://jmp2.uk/plu-5dcde17bf6591d0009839e02.m3u8"
   }
 ]
