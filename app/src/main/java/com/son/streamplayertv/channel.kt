@@ -20,7 +20,7 @@ data class Channel(
 // 3. Repositorio de canales
 object ChannelRepository {
 
-    val channels = listOf(
+    var channels = listOf(
         Channel(
             id = 1,
             name = "CN City En Vivo",
