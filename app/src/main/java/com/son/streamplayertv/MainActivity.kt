@@ -18,6 +18,11 @@ import androidx.media3.common.MediaItem
 import androidx.media3.exoplayer.ExoPlayer
 import androidx.media3.ui.PlayerView
 
+import androidx.lifecycle.lifecycleScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
+
 class MainActivity : AppCompatActivity() { // <-- Herencia Corregida
 
     private var player: ExoPlayer? = null
@@ -60,6 +65,38 @@ class MainActivity : AppCompatActivity() { // <-- Herencia Corregida
 
         setupListeners()
         updateCategoryFilter()
+
+        // Descarga la lista actualizada desde GitHub al iniciar
+        fetchRemoteChannels()
+    }
+
+    private fun fetchRemoteChannels() {
+        lifecycleScope.launch(Dispatchers.IO) {
+            try {
+                val remoteChannelsDto = RetrofitClient.apiService.getChannels()
+
+                val updatedChannels = remoteChannelsDto.map { dto ->
+                    Channel(
+                        id = dto.id,
+                        name = dto.name,
+                        categories = dto.categories.mapNotNull { catName ->
+                            try { Category.valueOf(catName) } catch (e: Exception) { null }
+                        },
+                        streamUrl = dto.streamUrl
+                    )
+                }
+
+                withContext(Dispatchers.Main) {
+                    if (updatedChannels.isNotEmpty()) {
+                        ChannelRepository.channels = updatedChannels
+                        updateCategoryFilter()
+                        loadChannel(0)
+                    }
+                }
+            } catch (e: Exception) {
+                e.printStackTrace() // Si falla la red, conserva la lista local de ChannelRepository
+            }
+        }
     }
 
     override fun onStart() {
