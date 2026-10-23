@@ -87,42 +87,6 @@ object ChannelRepository {
             categories = listOf(Category.DIBUJOS, Category.ANIME),
             streamUrl = "https://jmp2.uk/plu-5dcde2ac4bc6c500094ab45b.m3u8"
         ),
-        Channel(
-            id = 12,
-            name = "Naruto en espanol",
-            categories = listOf(Category.DIBUJOS, Category.ANIME),
-            streamUrl = "https://jmp2.uk/plu-5ee92e72fb286e0007285fec.m3u8"
-        ),
-        Channel(
-            id = 13,
-            name = "Naruto Shippuden",
-            categories = listOf(Category.DIBUJOS, Category.ANIME),
-            streamUrl = "https://jmp2.uk/plu-64c92f965580090008084968.m3u8"
-        ),
-        Channel(
-            id = 14,
-            name = "One Piece",
-            categories = listOf(Category.DIBUJOS, Category.ANIME),
-            streamUrl = "https://jmp2.uk/plu-5ff4b9ccf938f8000779eb99.m3u8"
-        ),
-        Channel(
-            id = 15,
-            name = "Detective Conan",
-            categories = listOf(Category.DIBUJOS, Category.ANIME),
-            streamUrl = "https://jmp2.uk/plu-629a066860ef810008267b70.m3u8"
-        ),
-        Channel(
-            id = 16,
-            name = "Yu-Gi-Oh! en espanol",
-            categories = listOf(Category.DIBUJOS, Category.ANIME),
-            streamUrl = "https://amg01796-amg01796c18-rakuten-es-7491.playouts.now.amagi.tv/playlist/amg01796-fastmediafast-yugiohees-rakutenes/playlist.m3u8"
-        ),
-        Channel(
-            id = 17,
-            name = "Pluto TV Anime",
-            categories = listOf(Category.DIBUJOS, Category.ANIME),
-            streamUrl = "https://jmp2.uk/plu-5dcde17bf6591d0009839e02.m3u8"
-        )
     )
 
     // Función de utilidad para obtener canales filtrados por categoría
