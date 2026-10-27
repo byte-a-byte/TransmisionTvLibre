@@ -6,7 +6,7 @@
 
     <uses-feature
         android:name="android.hardware.type.television"
-        android:required="true" />
+        android:required="false" />
     <uses-feature
         android:name="android.software.leanback"
         android:required="false" />
@@ -24,7 +24,8 @@
 
         <activity
             android:name=".MainActivity"
-            android:screenOrientation="sensorLandscape"
+            android:screenOrientation="unspecified"
+            android:configChanges="orientation|screenSize|keyboardHidden"
             android:banner="@mipmap/ic_launcher"
             android:exported="true"
             tools:ignore="DiscouragedApi">

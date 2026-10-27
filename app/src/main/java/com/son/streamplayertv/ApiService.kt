@@ -5,11 +5,13 @@ import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.GET
 
 interface ApiService {
-    @GET("channels.json") // Nombre del archivo en tu repositorio
+    @GET("channels.json")
     suspend fun getChannels(): List<ChannelDto>
+
+    @GET("catalog.json")
+    suspend fun getCatalog(): CatalogDto
 }
 
-// Objeto DTO para mapear el JSON
 data class ChannelDto(
         val id: Int,
         val name: String,
@@ -18,7 +20,6 @@ data class ChannelDto(
 )
 
 object RetrofitClient {
-    // Reemplaza con la URL base de tu usuario y repositorio Raw de GitHub
     private const val BASE_URL = "https://raw.githubusercontent.com/byte-a-byte/TransmisionTvLibre/main/"
 
     val apiService: ApiService by lazy {

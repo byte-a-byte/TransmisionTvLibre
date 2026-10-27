@@ -6,20 +6,17 @@
     android:layout_height="match_parent"
     android:background="@android:color/black">
 
-    <!-- Reproductor de video ExoPlayer -->
     <androidx.media3.ui.PlayerView
         android:id="@+id/playerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:use_controller="false" />
 
-    <!-- Capa de Controles Translúcida (Superpuesta) -->
     <RelativeLayout
         android:id="@+id/overlayContainer"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <!-- Barra Superior Flotante -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -31,8 +28,8 @@
 
             <TextView
                 android:id="@+id/btnMenu"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
                 android:background="#33FFFFFF"
                 android:clickable="true"
                 android:focusable="true"
@@ -54,7 +51,6 @@
                 android:textStyle="bold" />
         </LinearLayout>
 
-        <!-- Botón Flotante Izquierdo: Categoría Anterior -->
         <TextView
             android:id="@+id/btnPrevCategory"
             android:layout_width="50dp"
@@ -70,7 +66,6 @@
             android:textSize="24sp"
             android:textStyle="bold" />
 
-        <!-- Botón Flotante Derecho: Categoría Siguiente -->
         <TextView
             android:id="@+id/btnNextCategory"
             android:layout_width="50dp"
@@ -88,10 +83,9 @@
 
     </RelativeLayout>
 
-    <!-- Menú Lateral Compacto y Semitransparente -->
     <LinearLayout
         android:id="@+id/sideMenu"
-        android:layout_width="240dp"
+        android:layout_width="320dp"
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:background="#D9101010"
@@ -116,6 +110,84 @@
             android:choiceMode="singleChoice"
             android:divider="#33FFFFFF"
             android:dividerHeight="1dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/homeContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#090D18"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingStart="22dp"
+            android:paddingTop="22dp"
+            android:paddingEnd="22dp"
+            android:paddingBottom="14dp">
+
+            <TextView
+                android:id="@+id/homeBrand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="STREAM LIBRE"
+                android:textColor="#54E0C4"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.12" />
+
+            <TextView
+                android:id="@+id/homeTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="¿Qué quieres ver hoy?"
+                android:textColor="#FFFFFF"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/homeSubtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Canales, series y películas en un solo lugar"
+                android:textColor="#AAB4C8"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/homeScroll"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:clipToPadding="false"
+            android:fillViewport="true"
+            android:paddingBottom="12dp">
+
+            <LinearLayout
+                android:id="@+id/homeContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:paddingBottom="20dp" />
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/homeBottomNav"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:background="#111827"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp" />
     </LinearLayout>
 
 </FrameLayout>

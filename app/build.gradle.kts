@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.son.streamplayertv"
-    compileSdk = 37 // O el SDK más reciente disponible
+    compileSdk = 37
 
     defaultConfig {
         applicationId = "com.son.streamplayertv"
@@ -27,16 +27,14 @@ android {
 
 dependencies {
     implementation(libs.androidx.core.ktx)
-    implementation("androidx.appcompat:appcompat:1.6.1") // Agregado para compatibilidad UI
+    implementation("androidx.appcompat:appcompat:1.6.1")
     implementation(libs.androidx.leanback)
     implementation(libs.glide)
 
-    // Reproductor de video ExoPlayer para transmisiones HLS (.m3u8)
     implementation("androidx.media3:media3-exoplayer:1.3.1")
     implementation("androidx.media3:media3-exoplayer-hls:1.3.1")
     implementation("androidx.media3:media3-ui:1.3.1")
 
-    // Retrofit y Convertidor Gson para peticiones HTTP
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
