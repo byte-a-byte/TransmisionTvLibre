@@ -1,6 +1,5 @@
 package com.son.streamplayertv
 
-// 1. Enum para categorías: elimina posibilidad de errores de tipeo
 enum class Category(val displayName: String) {
     TODOS("Todos"),
     DIBUJOS("Dibujos Animados"),
@@ -8,16 +7,66 @@ enum class Category(val displayName: String) {
     PELICULAS("Películas");
 
     override fun toString(): String = displayName
+
+    companion object {
+        fun fromRemoteName(name: String): Category? {
+            val normalized = name.trim().lowercase()
+                .replace("á", "a")
+                .replace("é", "e")
+                .replace("í", "i")
+                .replace("ó", "o")
+                .replace("ú", "u")
+
+            return when {
+                normalized.contains("anime") -> ANIME
+                normalized.contains("dibujo") || normalized.contains("infantil") -> DIBUJOS
+                normalized.contains("pelicula") || normalized.contains("cine") -> PELICULAS
+                normalized == "todos" -> TODOS
+                else -> values().firstOrNull { it.name.equals(name.trim(), ignoreCase = true) }
+            }
+        }
+    }
 }
-// 2. Modelo de datos fuertemente tipado
 data class Channel(
-    val id: Int,                   // ID numérico simple (1, 2, 3...)
+    val id: Int,
     val name: String,
-    val categories: List<Category>,        // Usamos la Enum
+    val categories: List<Category>,
     val streamUrl: String
 )
 
-// 3. Repositorio de canales
+data class CatalogDto(
+    val series: List<SeriesDto> = emptyList(),
+    val movies: List<MovieDto> = emptyList()
+)
+
+data class SeriesDto(
+    val id: String,
+    val title: String,
+    val description: String? = null,
+    val posterUrl: String? = null,
+    val episodes: List<EpisodeDto> = emptyList()
+)
+
+data class EpisodeDto(
+    val id: String,
+    val title: String,
+    val streamUrl: String,
+    val episodeNumber: Int? = null
+)
+
+data class MovieDto(
+    val id: String,
+    val title: String,
+    val description: String? = null,
+    val posterUrl: String? = null,
+    val streamUrl: String
+)
+
+data class PlaybackItem(
+    val title: String,
+    val streamUrl: String
+)
+
 object ChannelRepository {
 
     var channels = listOf(
@@ -89,7 +138,6 @@ object ChannelRepository {
         ),
     )
 
-    // Función de utilidad para obtener canales filtrados por categoría
     fun getChannelsByCategory(category: Category): List<Channel> {
         if (category == Category.TODOS) return channels
         return channels.filter { channel -> channel.categories.contains(category) }

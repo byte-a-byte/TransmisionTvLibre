@@ -1,0 +1,176 @@
+[
+  {
+    "id": 1,
+    "name": "CN City En Vivo",
+    "categories": ["DIBUJOS"],
+    "streamUrl": "https://envivo.cncity.live/hls/envivo.m3u8"
+  },
+  {
+    "id": 2,
+    "name": "Cartoon Network Latin America",
+    "categories": ["DIBUJOS"],
+    "streamUrl": "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/cartoonnetwork.stream/chunks.m3u8"
+  },
+  {
+    "id": 3,
+    "name": "Boomerang (United States)",
+    "categories": ["DIBUJOS"],
+    "streamUrl": "http://23.237.104.106:8080/USA_BOOMERANG/index.m3u8"
+  },
+  {
+    "id": 4,
+    "name": "Nickelodeon en espanol",
+    "categories": ["DIBUJOS"],
+    "streamUrl": "https://jmp2.uk/plu-5d8d08395f39465da6fb3ec4.m3u8"
+  },
+  {
+    "id": 5,
+    "name": "Disney Junior (Ingles)",
+    "categories": ["DIBUJOS"],
+    "streamUrl": "http://tvsen5.aynascope.net/disney/index.m3u8"
+  },
+  {
+    "id": 6,
+    "name": "Tooncast",
+    "categories": ["DIBUJOS"],
+    "streamUrl": "https://streaming.onnethn.com/TOONCAST/playlist.m3u8"
+  },
+  {
+    "id": 7,
+    "name": "Bob Esponja Pantalones Cuadrados",
+    "categories": ["DIBUJOS"],
+    "streamUrl": "https://jmp2.uk/plu-6254598f5083f800076d8563.m3u8"
+  },
+  {
+    "id": 8,
+    "name": "Avatar: La Leyenda de Aang",
+    "categories": ["DIBUJOS"],
+    "streamUrl": "https://jmp2.uk/plu-6759ee82bd523200083b4f0f.m3u8"
+  },
+  {
+    "id": 9,
+    "name": "BabyFirst",
+    "categories": ["DIBUJOS"],
+    "streamUrl": "http://181.78.106.127:5000/play/a0sa/index.m3u8"
+  },
+  {
+    "id": 10,
+    "name": "Pluto TV Kids",
+    "categories": ["DIBUJOS"],
+    "streamUrl": "https://jmp2.uk/plu-5dd6dae8ce788b0009eaf77b.m3u8"
+  },
+  {
+    "id": 11,
+    "name": "Pluto TV Junior",
+    "categories": ["DIBUJOS"],
+    "streamUrl": "https://jmp2.uk/plu-5dcde2ac4bc6c500094ab45b.m3u8"
+  },
+  {
+    "id": 12,
+    "name": "Naruto en espanol",
+    "categories": ["ANIME"],
+    "streamUrl": "https://jmp2.uk/plu-5ee92e72fb286e0007285fec.m3u8"
+  },
+  {
+    "id": 13,
+    "name": "Naruto Shippuden",
+    "categories": ["ANIME"],
+    "streamUrl": "https://jmp2.uk/plu-64c92f965580090008084968.m3u8"
+  },
+  {
+    "id": 14,
+    "name": "One Piece",
+    "categories": ["ANIME"],
+    "streamUrl": "https://jmp2.uk/plu-5ff4b9ccf938f8000779eb99.m3u8"
+  },
+  {
+    "id": 15,
+    "name": "Detective Conan",
+    "categories": ["ANIME"],
+    "streamUrl": "https://jmp2.uk/plu-629a066860ef810008267b70.m3u8"
+  },
+  {
+    "id": 16,
+    "name": "Yu-Gi-Oh! en espanol",
+    "categories": ["ANIME"],
+    "streamUrl": "https://amg01796-amg01796c18-rakuten-es-7491.playouts.now.amagi.tv/playlist/amg01796-fastmediafast-yugiohees-rakutenes/playlist.m3u8"
+  },
+  {
+    "id": 17,
+    "name": "Pluto",
+    "categories": ["ANIME"],
+    "streamUrl": "https://jmp2.uk/plu-5dcde17bf6591d0009839e02.m3u8"
+  },
+  {
+    "id": 18,
+    "name": "Cine Terror US",
+    "categories": ["Películas terror-suspenso"],
+    "streamUrl": "https://jmp2.uk/plu-5d8d180092e97a5e107638d3.m3u8"
+  },
+  {
+    "id": 19,
+    "name": "Cine Terror latam",
+    "categories": ["Películas terror-suspenso"],
+    "streamUrl": "https://jmp2.uk/plu-5dcddf1ed95e740009fef7ab.m3u8"
+  },
+  {
+    "id": 20,
+    "name": "Cinecanal",
+    "categories": ["Películas en general"],
+    "streamUrl": "https://barinaslive1.boldmss.com/CINECANAL/CINECANAL.isml/CINECANAL.m3u8"
+  },
+  {
+    "id": 21,
+    "name": "Pluto TV Cine Estelar",
+    "categories": ["Películas en general"],
+    "streamUrl": "https://jmp2.uk/plu-5dcde437229eff00091b6c30.m3u8"
+  },
+  {
+    "id": 22,
+    "name": "Cinemax (United States)",
+    "categories": ["Películas en general"],
+    "streamUrl": "http://23.237.104.106:8080/USA_CINEMAX_WEST/index.m3u8"
+  },
+  {
+    "id": 23,
+    "name": "Pluto TV Cine Accion",
+    "categories": ["Películas en general"],
+    "streamUrl": "https://jmp2.uk/plu-5dcb62e63d4d8f0009f36881.m3u8"
+  },
+  {
+    "id": 24,
+    "name": "Pluto TV Cine Suspenso",
+    "categories": ["Películas en general"],
+    "streamUrl": "https://jmp2.uk/plu-5ddc4e8bcbb9010009b4e84f.m3u8"
+  },
+  {
+    "id": 25,
+    "name": "Pluto TV Cine Familia",
+    "categories": ["Películas en general"],
+    "streamUrl": "https://jmp2.uk/plu-5f171f032cd22e0007f17f3d.m3u8"
+  },
+  {
+    "id": 26,
+    "name": "Pluto TV Cine Romance",
+    "categories": ["Películas en general"],
+    "streamUrl": "https://jmp2.uk/plu-5dd7ea2aeab5230009986735.m3u8"
+  },
+  {
+    "id": 27,
+    "name": "HBO 2 Latin America",
+    "categories": ["Películas en general"],
+    "streamUrl": "http://45.171.64.30:6060/play/a00i/index.m3u8"
+  },
+  {
+    "id": 28,
+    "name": "HBO Family Latin America",
+    "categories": ["Películas en general"],
+    "streamUrl": "http://45.171.64.30:6060/play/a00k/index.m3u8"
+  },
+  {
+    "id": 29,
+    "name": "HBO Latin America",
+    "categories": ["Películas en general"],
+    "streamUrl": "https://streaming.onnethn.com/HBO/playlist.m3u8"
+  }
+]
