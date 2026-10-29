@@ -172,5 +172,77 @@
     "name": "HBO Latin America",
     "categories": ["Películas en general"],
     "streamUrl": "https://streaming.onnethn.com/HBO/playlist.m3u8"
+  },
+  {
+    "id": 30,
+    "name": "Dragon Ball",
+    "categories": [
+      "ANIME"
+    ],
+    "streamUrl": "https://jmp2.uk/plu-685a996c7c4f2ad40cb4f276.m3u8"
+  },
+  {
+    "id": 31,
+    "name": "Dragon Ball Z",
+    "categories": [
+      "ANIME"
+    ],
+    "streamUrl": "https://jmp2.uk/plu-68e8fd7c3ede4398bc69af93.m3u8"
+  },
+  {
+    "id": 32,
+    "name": "One Piece (alternativo)",
+    "categories": [
+      "ANIME"
+    ],
+    "streamUrl": "https://jmp2.uk/plu-680ba8992472a7200a183eb5.m3u8"
+  },
+  {
+    "id": 33,
+    "name": "Los Caballeros del Zodiaco",
+    "categories": [
+      "ANIME"
+    ],
+    "streamUrl": "https://jmp2.uk/plu-680ba8c3a48b3ead0db701cc.m3u8"
+  },
+  {
+    "id": 34,
+    "name": "Yu-Gi-Oh! (alternativo)",
+    "categories": [
+      "ANIME"
+    ],
+    "streamUrl": "https://jmp2.uk/plu-63eb96754e83e70008ab8941.m3u8"
+  },
+  {
+    "id": 35,
+    "name": "Inazuma Eleven",
+    "categories": [
+      "ANIME"
+    ],
+    "streamUrl": "https://jmp2.uk/plu-632c6df43d2bc5000751f621.m3u8"
+  },
+  {
+    "id": 36,
+    "name": "Lupin",
+    "categories": [
+      "ANIME"
+    ],
+    "streamUrl": "https://jmp2.uk/plu-683457e5f59cc6a13212fce4.m3u8"
+  },
+  {
+    "id": 37,
+    "name": "Pluto TV Anime",
+    "categories": [
+      "ANIME"
+    ],
+    "streamUrl": "https://jmp2.uk/plu-608035b8d8705f0007260287.m3u8"
+  },
+  {
+    "id": 38,
+    "name": "Death Note",
+    "categories": [
+      "ANIME"
+    ],
+    "streamUrl": "https://jmp2.uk/plu-626c2ed933a2890007e91422.m3u8"
   }
 ]
