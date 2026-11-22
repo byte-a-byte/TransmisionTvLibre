@@ -1,0 +1,29 @@
+{
+  "versionEsquema": 1,
+  "categorias": [
+    {
+      "id": "ANIME",
+      "nombre": "Anime"
+    },
+    {
+      "id": "DIBUJOS",
+      "nombre": "Caricaturas"
+    },
+    {
+      "id": "PELICULAS",
+      "nombre": "Películas"
+    },
+    {
+      "id": "TERROR",
+      "nombre": "Terror y suspenso"
+    },
+    {
+      "id": "SERIES",
+      "nombre": "Series"
+    },
+    {
+      "id": "MUSICA",
+      "nombre": "Música"
+    }
+  ]
+}

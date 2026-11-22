@@ -1,0 +1,41 @@
+{
+  "versionEsquema": 1,
+  "versionCatalogo": "2.1.0",
+  "urlBaseRemota": null,
+  "requiereConfigurarUrlBaseRemota": true,
+  "archivos": [
+    {
+      "ruta": "canales.json",
+      "sha256": "6a1c870f38595b1e3806ce082330a9a63f8aa26831c21d49855f686c477c9368"
+    },
+    {
+      "ruta": "series.json",
+      "sha256": "ff48c12fa42eca634e1ae7293c93019f28bff48610951737371f7e5aeb838ee5"
+    },
+    {
+      "ruta": "peliculas.json",
+      "sha256": "7a11d4a9c7a3f0e891e1671f8f58eddd7b65fa65f31d2f8bcbaac6a26a68b151"
+    },
+    {
+      "ruta": "radio.json",
+      "sha256": "7ba138ea592273eba896829b85a51a16a1d9a1a27ab90b80e163ba12fd63acd0"
+    },
+    {
+      "ruta": "franquicias.json",
+      "sha256": "76450742002f32da1de9149b16221259841d92700a6d8ccd31f6063d5affb9d4"
+    },
+    {
+      "ruta": "categorias.json",
+      "sha256": "3763ded4ba52eb4a71660c380561aa8cc69130ee914f98afc9c12916ca6fca03"
+    },
+    {
+      "ruta": "configuracion.json",
+      "sha256": "ce5d9879c863fae218ef15658f9605b9071ddd2217013ef44e38b1bb31f37a4d"
+    }
+  ],
+  "publicacion": {
+    "descargaCompletaRequerida": true,
+    "validarAntesDeActivar": true,
+    "conservarUltimoCatalogoValido": true
+  }
+}

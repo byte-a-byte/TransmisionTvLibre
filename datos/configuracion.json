@@ -1,0 +1,11 @@
+{
+  "versionEsquema": 1,
+  "idiomaPredeterminado": "es-419",
+  "idiomasAlternativos": [
+    "es-ES",
+    "en"
+  ],
+  "pantallaInicialPredeterminada": "ULTIMO_CANAL",
+  "ocultarDeshabilitados": true,
+  "horasCacheCatalogo": 12
+}

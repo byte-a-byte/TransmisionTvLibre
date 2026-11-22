@@ -1,0 +1,1223 @@
+{
+  "versionEsquema": 1,
+  "canales": [
+    {
+      "id": "live-0001",
+      "idAnterior": 1,
+      "nombre": "CN City En Vivo",
+      "habilitado": true,
+      "categorias": [
+        "DIBUJOS"
+      ],
+      "programacion": "DESCONOCIDA",
+      "emision": "EN_VIVO",
+      "idioma": "und",
+      "clasificacionEdad": "SIN_CLASIFICAR",
+      "imagen": null,
+      "fuentes": [
+        {
+          "id": "src-0001-1",
+          "habilitado": true,
+          "url": "https://envivo.cncity.live/hls/envivo.m3u8",
+          "idioma": "und",
+          "estadoPermisos": "SIN_VERIFICAR",
+          "prioridad": 1,
+          "tipoReproduccion": "HLS",
+          "descripcion": null
+        }
+      ],
+      "tipo": "CANAL_EN_VIVO",
+      "etiquetas": [],
+      "descripcion": null,
+      "idSerieRelacionada": null,
+      "idFranquicia": null,
+      "verificacion": "PENDIENTE"
+    },
+    {
+      "id": "live-0002",
+      "idAnterior": 2,
+      "nombre": "Cartoon Network Latin America",
+      "habilitado": true,
+      "categorias": [
+        "DIBUJOS"
+      ],
+      "programacion": "DESCONOCIDA",
+      "emision": "EN_VIVO",
+      "idioma": "und",
+      "clasificacionEdad": "SIN_CLASIFICAR",
+      "imagen": null,
+      "fuentes": [
+        {
+          "id": "src-0002-1",
+          "habilitado": true,
+          "url": "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/cartoonnetwork.stream/chunks.m3u8",
+          "idioma": "und",
+          "estadoPermisos": "SIN_VERIFICAR",
+          "prioridad": 1,
+          "tipoReproduccion": "HLS",
+          "descripcion": null
+        }
+      ],
+      "tipo": "CANAL_EN_VIVO",
+      "etiquetas": [],
+      "descripcion": null,
+      "idSerieRelacionada": null,
+      "idFranquicia": null,
+      "verificacion": "PENDIENTE"
+    },
+    {
+      "id": "live-0003",
+      "idAnterior": 3,
+      "nombre": "Boomerang (United States)",
+      "habilitado": true,
+      "categorias": [
+        "DIBUJOS"
+      ],
+      "programacion": "DESCONOCIDA",
+      "emision": "EN_VIVO",
+      "idioma": "und",
+      "clasificacionEdad": "SIN_CLASIFICAR",
+      "imagen": null,
+      "fuentes": [
+        {
+          "id": "src-0003-1",
+          "habilitado": true,
+          "url": "http://23.237.104.106:8080/USA_BOOMERANG/index.m3u8",
+          "idioma": "und",
+          "estadoPermisos": "SIN_VERIFICAR",
+          "prioridad": 1,
+          "tipoReproduccion": "HLS",
+          "descripcion": null
+        }
+      ],
+      "tipo": "CANAL_EN_VIVO",
+      "etiquetas": [],
+      "descripcion": null,
+      "idSerieRelacionada": null,
+      "idFranquicia": null,
+      "verificacion": "PENDIENTE"
+    },
+    {
+      "id": "live-0004",
+      "idAnterior": 4,
+      "nombre": "Nickelodeon en espanol",
+      "habilitado": true,
+      "categorias": [
+        "DIBUJOS"
+      ],
+      "programacion": "DESCONOCIDA",
+      "emision": "EN_VIVO",
+      "idioma": "und",
+      "clasificacionEdad": "SIN_CLASIFICAR",
+      "imagen": null,
+      "fuentes": [
+        {
+          "id": "src-0004-1",
+          "habilitado": true,
+          "url": "https://jmp2.uk/plu-5d8d08395f39465da6fb3ec4.m3u8",
+          "idioma": "und",
+          "estadoPermisos": "SIN_VERIFICAR",
+          "prioridad": 1,
+          "tipoReproduccion": "HLS",
+          "descripcion": null
+        }
+      ],
+      "tipo": "CANAL_EN_VIVO",
+      "etiquetas": [],
+      "descripcion": null,
+      "idSerieRelacionada": null,
+      "idFranquicia": null,
+      "verificacion": "PENDIENTE"
+    },
+    {
+      "id": "live-0005",
+      "idAnterior": 5,
+      "nombre": "Disney Junior (Ingles)",
+      "habilitado": true,
+      "categorias": [
+        "DIBUJOS"
+      ],
+      "programacion": "DESCONOCIDA",
+      "emision": "EN_VIVO",
+      "idioma": "und",
+      "clasificacionEdad": "SIN_CLASIFICAR",
+      "imagen": null,
+      "fuentes": [
+        {
+          "id": "src-0005-1",
+          "habilitado": true,
+          "url": "http://tvsen5.aynascope.net/disney/index.m3u8",
+          "idioma": "und",
+          "estadoPermisos": "SIN_VERIFICAR",
+          "prioridad": 1,
+          "tipoReproduccion": "HLS",
+          "descripcion": null
+        }
+      ],
+      "tipo": "CANAL_EN_VIVO",
+      "etiquetas": [],
+      "descripcion": null,
+      "idSerieRelacionada": null,
+      "idFranquicia": null,
+      "verificacion": "PENDIENTE"
+    },
+    {
+      "id": "live-0006",
+      "idAnterior": 6,
+      "nombre": "Tooncast",
+      "habilitado": true,
+      "categorias": [
+        "DIBUJOS"
+      ],
+      "programacion": "DESCONOCIDA",
+      "emision": "EN_VIVO",
+      "idioma": "und",
+      "clasificacionEdad": "SIN_CLASIFICAR",
+      "imagen": null,
+      "fuentes": [
+        {
+          "id": "src-0006-1",
+          "habilitado": true,
+          "url": "https://streaming.onnethn.com/TOONCAST/playlist.m3u8",
+          "idioma": "und",
+          "estadoPermisos": "SIN_VERIFICAR",
+          "prioridad": 1,
+          "tipoReproduccion": "HLS",
+          "descripcion": null
+        }
+      ],
+      "tipo": "CANAL_EN_VIVO",
+      "etiquetas": [],
+      "descripcion": null,
+      "idSerieRelacionada": null,
+      "idFranquicia": null,
+      "verificacion": "PENDIENTE"
+    },
+    {
+      "id": "live-0007",
+      "idAnterior": 7,
+      "nombre": "Bob Esponja Pantalones Cuadrados",
+      "habilitado": true,
+      "categorias": [
+        "DIBUJOS"
+      ],
+      "programacion": "DESCONOCIDA",
+      "emision": "EN_VIVO",
+      "idioma": "und",
+      "clasificacionEdad": "SIN_CLASIFICAR",
+      "imagen": null,
+      "fuentes": [
+        {
+          "id": "src-0007-1",
+          "habilitado": true,
+          "url": "https://jmp2.uk/plu-6254598f5083f800076d8563.m3u8",
+          "idioma": "und",
+          "estadoPermisos": "SIN_VERIFICAR",
+          "prioridad": 1,
+          "tipoReproduccion": "HLS",
+          "descripcion": null
+        }
+      ],
+      "tipo": "CANAL_EN_VIVO",
+      "etiquetas": [],
+      "descripcion": null,
+      "idSerieRelacionada": null,
+      "idFranquicia": null,
+      "verificacion": "PENDIENTE"
+    },
+    {
+      "id": "live-0008",
+      "idAnterior": 8,
+      "nombre": "Avatar: La Leyenda de Aang",
+      "habilitado": true,
+      "categorias": [
+        "DIBUJOS"
+      ],
+      "programacion": "DESCONOCIDA",
+      "emision": "EN_VIVO",
+      "idioma": "und",
+      "clasificacionEdad": "SIN_CLASIFICAR",
+      "imagen": null,
+      "fuentes": [
+        {
+          "id": "src-0008-1",
+          "habilitado": true,
+          "url": "https://jmp2.uk/plu-6759ee82bd523200083b4f0f.m3u8",
+          "idioma": "und",
+          "estadoPermisos": "SIN_VERIFICAR",
+          "prioridad": 1,
+          "tipoReproduccion": "HLS",
+          "descripcion": null
+        }
+      ],
+      "tipo": "CANAL_EN_VIVO",
+      "etiquetas": [],
+      "descripcion": null,
+      "idSerieRelacionada": null,
+      "idFranquicia": null,
+      "verificacion": "PENDIENTE"
+    },
+    {
+      "id": "live-0009",
+      "idAnterior": 9,
+      "nombre": "BabyFirst",
+      "habilitado": true,
+      "categorias": [
+        "DIBUJOS"
+      ],
+      "programacion": "DESCONOCIDA",
+      "emision": "EN_VIVO",
+      "idioma": "und",
+      "clasificacionEdad": "SIN_CLASIFICAR",
+      "imagen": null,
+      "fuentes": [
+        {
+          "id": "src-0009-1",
+          "habilitado": true,
+          "url": "http://181.78.106.127:5000/play/a0sa/index.m3u8",
+          "idioma": "und",
+          "estadoPermisos": "SIN_VERIFICAR",
+          "prioridad": 1,
+          "tipoReproduccion": "HLS",
+          "descripcion": null
+        }
+      ],
+      "tipo": "CANAL_EN_VIVO",
+      "etiquetas": [],
+      "descripcion": null,
+      "idSerieRelacionada": null,
+      "idFranquicia": null,
+      "verificacion": "PENDIENTE"
+    },
+    {
+      "id": "live-0010",
+      "idAnterior": 10,
+      "nombre": "Pluto TV Kids",
+      "habilitado": true,
+      "categorias": [
+        "DIBUJOS"
+      ],
+      "programacion": "DESCONOCIDA",
+      "emision": "EN_VIVO",
+      "idioma": "und",
+      "clasificacionEdad": "SIN_CLASIFICAR",
+      "imagen": null,
+      "fuentes": [
+        {
+          "id": "src-0010-1",
+          "habilitado": true,
+          "url": "https://jmp2.uk/plu-5dd6dae8ce788b0009eaf77b.m3u8",
+          "idioma": "und",
+          "estadoPermisos": "SIN_VERIFICAR",
+          "prioridad": 1,
+          "tipoReproduccion": "HLS",
+          "descripcion": null
+        }
+      ],
+      "tipo": "CANAL_EN_VIVO",
+      "etiquetas": [],
+      "descripcion": null,
+      "idSerieRelacionada": null,
+      "idFranquicia": null,
+      "verificacion": "PENDIENTE"
+    },
+    {
+      "id": "live-0011",
+      "idAnterior": 11,
+      "nombre": "Pluto TV Junior",
+      "habilitado": true,
+      "categorias": [
+        "DIBUJOS"
+      ],
+      "programacion": "DESCONOCIDA",
+      "emision": "EN_VIVO",
+      "idioma": "und",
+      "clasificacionEdad": "SIN_CLASIFICAR",
+      "imagen": null,
+      "fuentes": [
+        {
+          "id": "src-0011-1",
+          "habilitado": true,
+          "url": "https://jmp2.uk/plu-5dcde2ac4bc6c500094ab45b.m3u8",
+          "idioma": "und",
+          "estadoPermisos": "SIN_VERIFICAR",
+          "prioridad": 1,
+          "tipoReproduccion": "HLS",
+          "descripcion": null
+        }
+      ],
+      "tipo": "CANAL_EN_VIVO",
+      "etiquetas": [],
+      "descripcion": null,
+      "idSerieRelacionada": null,
+      "idFranquicia": null,
+      "verificacion": "PENDIENTE"
+    },
+    {
+      "id": "live-0012",
+      "idAnterior": 12,
+      "nombre": "Naruto en espanol",
+      "habilitado": true,
+      "categorias": [
+        "ANIME"
+      ],
+      "programacion": "DESCONOCIDA",
+      "emision": "EN_VIVO",
+      "idioma": "und",
+      "clasificacionEdad": "SIN_CLASIFICAR",
+      "imagen": null,
+      "fuentes": [
+        {
+          "id": "src-0012-1",
+          "habilitado": true,
+          "url": "https://jmp2.uk/plu-5ee92e72fb286e0007285fec.m3u8",
+          "idioma": "und",
+          "estadoPermisos": "SIN_VERIFICAR",
+          "prioridad": 1,
+          "tipoReproduccion": "HLS",
+          "descripcion": null
+        }
+      ],
+      "tipo": "CANAL_EN_VIVO",
+      "etiquetas": [],
+      "descripcion": null,
+      "idSerieRelacionada": null,
+      "idFranquicia": null,
+      "verificacion": "PENDIENTE"
+    },
+    {
+      "id": "live-0013",
+      "idAnterior": 13,
+      "nombre": "Naruto Shippuden",
+      "habilitado": true,
+      "categorias": [
+        "ANIME"
+      ],
+      "programacion": "DESCONOCIDA",
+      "emision": "EN_VIVO",
+      "idioma": "und",
+      "clasificacionEdad": "SIN_CLASIFICAR",
+      "imagen": null,
+      "fuentes": [
+        {
+          "id": "src-0013-1",
+          "habilitado": true,
+          "url": "https://jmp2.uk/plu-64c92f965580090008084968.m3u8",
+          "idioma": "und",
+          "estadoPermisos": "SIN_VERIFICAR",
+          "prioridad": 1,
+          "tipoReproduccion": "HLS",
+          "descripcion": null
+        }
+      ],
+      "tipo": "CANAL_EN_VIVO",
+      "etiquetas": [],
+      "descripcion": null,
+      "idSerieRelacionada": null,
+      "idFranquicia": null,
+      "verificacion": "PENDIENTE"
+    },
+    {
+      "id": "live-0014",
+      "idAnterior": 14,
+      "nombre": "One Piece",
+      "habilitado": true,
+      "categorias": [
+        "ANIME"
+      ],
+      "programacion": "DESCONOCIDA",
+      "emision": "EN_VIVO",
+      "idioma": "und",
+      "clasificacionEdad": "SIN_CLASIFICAR",
+      "imagen": null,
+      "fuentes": [
+        {
+          "id": "src-0014-1",
+          "habilitado": true,
+          "url": "https://jmp2.uk/plu-5ff4b9ccf938f8000779eb99.m3u8",
+          "idioma": "und",
+          "estadoPermisos": "SIN_VERIFICAR",
+          "prioridad": 1,
+          "tipoReproduccion": "HLS",
+          "descripcion": null
+        }
+      ],
+      "tipo": "CANAL_EN_VIVO",
+      "etiquetas": [],
+      "descripcion": null,
+      "idSerieRelacionada": null,
+      "idFranquicia": null,
+      "verificacion": "PENDIENTE"
+    },
+    {
+      "id": "live-0015",
+      "idAnterior": 15,
+      "nombre": "Detective Conan",
+      "habilitado": true,
+      "categorias": [
+        "ANIME"
+      ],
+      "programacion": "DESCONOCIDA",
+      "emision": "EN_VIVO",
+      "idioma": "und",
+      "clasificacionEdad": "SIN_CLASIFICAR",
+      "imagen": null,
+      "fuentes": [
+        {
+          "id": "src-0015-1",
+          "habilitado": true,
+          "url": "https://jmp2.uk/plu-629a066860ef810008267b70.m3u8",
+          "idioma": "und",
+          "estadoPermisos": "SIN_VERIFICAR",
+          "prioridad": 1,
+          "tipoReproduccion": "HLS",
+          "descripcion": null
+        }
+      ],
+      "tipo": "CANAL_EN_VIVO",
+      "etiquetas": [],
+      "descripcion": null,
+      "idSerieRelacionada": null,
+      "idFranquicia": null,
+      "verificacion": "PENDIENTE"
+    },
+    {
+      "id": "live-0016",
+      "idAnterior": 16,
+      "nombre": "Yu-Gi-Oh! en espanol",
+      "habilitado": true,
+      "categorias": [
+        "ANIME"
+      ],
+      "programacion": "DESCONOCIDA",
+      "emision": "EN_VIVO",
+      "idioma": "und",
+      "clasificacionEdad": "SIN_CLASIFICAR",
+      "imagen": null,
+      "fuentes": [
+        {
+          "id": "src-0016-1",
+          "habilitado": true,
+          "url": "https://amg01796-amg01796c18-rakuten-es-7491.playouts.now.amagi.tv/playlist/amg01796-fastmediafast-yugiohees-rakutenes/playlist.m3u8",
+          "idioma": "und",
+          "estadoPermisos": "SIN_VERIFICAR",
+          "prioridad": 1,
+          "tipoReproduccion": "HLS",
+          "descripcion": null
+        }
+      ],
+      "tipo": "CANAL_EN_VIVO",
+      "etiquetas": [],
+      "descripcion": null,
+      "idSerieRelacionada": null,
+      "idFranquicia": null,
+      "verificacion": "PENDIENTE"
+    },
+    {
+      "id": "live-0017",
+      "idAnterior": 17,
+      "nombre": "Pluto",
+      "habilitado": true,
+      "categorias": [
+        "ANIME"
+      ],
+      "programacion": "DESCONOCIDA",
+      "emision": "EN_VIVO",
+      "idioma": "und",
+      "clasificacionEdad": "SIN_CLASIFICAR",
+      "imagen": null,
+      "fuentes": [
+        {
+          "id": "src-0017-1",
+          "habilitado": true,
+          "url": "https://jmp2.uk/plu-5dcde17bf6591d0009839e02.m3u8",
+          "idioma": "und",
+          "estadoPermisos": "SIN_VERIFICAR",
+          "prioridad": 1,
+          "tipoReproduccion": "HLS",
+          "descripcion": null
+        }
+      ],
+      "tipo": "CANAL_EN_VIVO",
+      "etiquetas": [],
+      "descripcion": null,
+      "idSerieRelacionada": null,
+      "idFranquicia": null,
+      "verificacion": "PENDIENTE"
+    },
+    {
+      "id": "live-0018",
+      "idAnterior": 18,
+      "nombre": "Cine Terror US",
+      "habilitado": true,
+      "categorias": [
+        "PELICULAS",
+        "TERROR"
+      ],
+      "programacion": "DESCONOCIDA",
+      "emision": "EN_VIVO",
+      "idioma": "und",
+      "clasificacionEdad": "SIN_CLASIFICAR",
+      "imagen": null,
+      "fuentes": [
+        {
+          "id": "src-0018-1",
+          "habilitado": true,
+          "url": "https://jmp2.uk/plu-5d8d180092e97a5e107638d3.m3u8",
+          "idioma": "und",
+          "estadoPermisos": "SIN_VERIFICAR",
+          "prioridad": 1,
+          "tipoReproduccion": "HLS",
+          "descripcion": null
+        }
+      ],
+      "tipo": "CANAL_EN_VIVO",
+      "etiquetas": [],
+      "descripcion": null,
+      "idSerieRelacionada": null,
+      "idFranquicia": null,
+      "verificacion": "PENDIENTE"
+    },
+    {
+      "id": "live-0019",
+      "idAnterior": 19,
+      "nombre": "Cine Terror latam",
+      "habilitado": true,
+      "categorias": [
+        "PELICULAS",
+        "TERROR"
+      ],
+      "programacion": "DESCONOCIDA",
+      "emision": "EN_VIVO",
+      "idioma": "und",
+      "clasificacionEdad": "SIN_CLASIFICAR",
+      "imagen": null,
+      "fuentes": [
+        {
+          "id": "src-0019-1",
+          "habilitado": true,
+          "url": "https://jmp2.uk/plu-5dcddf1ed95e740009fef7ab.m3u8",
+          "idioma": "und",
+          "estadoPermisos": "SIN_VERIFICAR",
+          "prioridad": 1,
+          "tipoReproduccion": "HLS",
+          "descripcion": null
+        }
+      ],
+      "tipo": "CANAL_EN_VIVO",
+      "etiquetas": [],
+      "descripcion": null,
+      "idSerieRelacionada": null,
+      "idFranquicia": null,
+      "verificacion": "PENDIENTE"
+    },
+    {
+      "id": "live-0020",
+      "idAnterior": 20,
+      "nombre": "Cinecanal",
+      "habilitado": true,
+      "categorias": [
+        "PELICULAS"
+      ],
+      "programacion": "DESCONOCIDA",
+      "emision": "EN_VIVO",
+      "idioma": "und",
+      "clasificacionEdad": "SIN_CLASIFICAR",
+      "imagen": null,
+      "fuentes": [
+        {
+          "id": "src-0020-1",
+          "habilitado": true,
+          "url": "https://barinaslive1.boldmss.com/CINECANAL/CINECANAL.isml/CINECANAL.m3u8",
+          "idioma": "und",
+          "estadoPermisos": "SIN_VERIFICAR",
+          "prioridad": 1,
+          "tipoReproduccion": "HLS",
+          "descripcion": null
+        }
+      ],
+      "tipo": "CANAL_EN_VIVO",
+      "etiquetas": [],
+      "descripcion": null,
+      "idSerieRelacionada": null,
+      "idFranquicia": null,
+      "verificacion": "PENDIENTE"
+    },
+    {
+      "id": "live-0021",
+      "idAnterior": 21,
+      "nombre": "Pluto TV Cine Estelar",
+      "habilitado": true,
+      "categorias": [
+        "PELICULAS"
+      ],
+      "programacion": "DESCONOCIDA",
+      "emision": "EN_VIVO",
+      "idioma": "und",
+      "clasificacionEdad": "SIN_CLASIFICAR",
+      "imagen": null,
+      "fuentes": [
+        {
+          "id": "src-0021-1",
+          "habilitado": true,
+          "url": "https://jmp2.uk/plu-5dcde437229eff00091b6c30.m3u8",
+          "idioma": "und",
+          "estadoPermisos": "SIN_VERIFICAR",
+          "prioridad": 1,
+          "tipoReproduccion": "HLS",
+          "descripcion": null
+        }
+      ],
+      "tipo": "CANAL_EN_VIVO",
+      "etiquetas": [],
+      "descripcion": null,
+      "idSerieRelacionada": null,
+      "idFranquicia": null,
+      "verificacion": "PENDIENTE"
+    },
+    {
+      "id": "live-0022",
+      "idAnterior": 22,
+      "nombre": "Cinemax (United States)",
+      "habilitado": true,
+      "categorias": [
+        "PELICULAS"
+      ],
+      "programacion": "DESCONOCIDA",
+      "emision": "EN_VIVO",
+      "idioma": "und",
+      "clasificacionEdad": "SIN_CLASIFICAR",
+      "imagen": null,
+      "fuentes": [
+        {
+          "id": "src-0022-1",
+          "habilitado": true,
+          "url": "http://23.237.104.106:8080/USA_CINEMAX_WEST/index.m3u8",
+          "idioma": "und",
+          "estadoPermisos": "SIN_VERIFICAR",
+          "prioridad": 1,
+          "tipoReproduccion": "HLS",
+          "descripcion": null
+        }
+      ],
+      "tipo": "CANAL_EN_VIVO",
+      "etiquetas": [],
+      "descripcion": null,
+      "idSerieRelacionada": null,
+      "idFranquicia": null,
+      "verificacion": "PENDIENTE"
+    },
+    {
+      "id": "live-0023",
+      "idAnterior": 23,
+      "nombre": "Pluto TV Cine Accion",
+      "habilitado": true,
+      "categorias": [
+        "PELICULAS"
+      ],
+      "programacion": "DESCONOCIDA",
+      "emision": "EN_VIVO",
+      "idioma": "und",
+      "clasificacionEdad": "SIN_CLASIFICAR",
+      "imagen": null,
+      "fuentes": [
+        {
+          "id": "src-0023-1",
+          "habilitado": true,
+          "url": "https://jmp2.uk/plu-5dcb62e63d4d8f0009f36881.m3u8",
+          "idioma": "und",
+          "estadoPermisos": "SIN_VERIFICAR",
+          "prioridad": 1,
+          "tipoReproduccion": "HLS",
+          "descripcion": null
+        }
+      ],
+      "tipo": "CANAL_EN_VIVO",
+      "etiquetas": [],
+      "descripcion": null,
+      "idSerieRelacionada": null,
+      "idFranquicia": null,
+      "verificacion": "PENDIENTE"
+    },
+    {
+      "id": "live-0024",
+      "idAnterior": 24,
+      "nombre": "Pluto TV Cine Suspenso",
+      "habilitado": true,
+      "categorias": [
+        "PELICULAS"
+      ],
+      "programacion": "DESCONOCIDA",
+      "emision": "EN_VIVO",
+      "idioma": "und",
+      "clasificacionEdad": "SIN_CLASIFICAR",
+      "imagen": null,
+      "fuentes": [
+        {
+          "id": "src-0024-1",
+          "habilitado": true,
+          "url": "https://jmp2.uk/plu-5ddc4e8bcbb9010009b4e84f.m3u8",
+          "idioma": "und",
+          "estadoPermisos": "SIN_VERIFICAR",
+          "prioridad": 1,
+          "tipoReproduccion": "HLS",
+          "descripcion": null
+        }
+      ],
+      "tipo": "CANAL_EN_VIVO",
+      "etiquetas": [],
+      "descripcion": null,
+      "idSerieRelacionada": null,
+      "idFranquicia": null,
+      "verificacion": "PENDIENTE"
+    },
+    {
+      "id": "live-0025",
+      "idAnterior": 25,
+      "nombre": "Pluto TV Cine Familia",
+      "habilitado": true,
+      "categorias": [
+        "PELICULAS"
+      ],
+      "programacion": "DESCONOCIDA",
+      "emision": "EN_VIVO",
+      "idioma": "und",
+      "clasificacionEdad": "SIN_CLASIFICAR",
+      "imagen": null,
+      "fuentes": [
+        {
+          "id": "src-0025-1",
+          "habilitado": true,
+          "url": "https://jmp2.uk/plu-5f171f032cd22e0007f17f3d.m3u8",
+          "idioma": "und",
+          "estadoPermisos": "SIN_VERIFICAR",
+          "prioridad": 1,
+          "tipoReproduccion": "HLS",
+          "descripcion": null
+        }
+      ],
+      "tipo": "CANAL_EN_VIVO",
+      "etiquetas": [],
+      "descripcion": null,
+      "idSerieRelacionada": null,
+      "idFranquicia": null,
+      "verificacion": "PENDIENTE"
+    },
+    {
+      "id": "live-0026",
+      "idAnterior": 26,
+      "nombre": "Pluto TV Cine Romance",
+      "habilitado": true,
+      "categorias": [
+        "PELICULAS"
+      ],
+      "programacion": "DESCONOCIDA",
+      "emision": "EN_VIVO",
+      "idioma": "und",
+      "clasificacionEdad": "SIN_CLASIFICAR",
+      "imagen": null,
+      "fuentes": [
+        {
+          "id": "src-0026-1",
+          "habilitado": true,
+          "url": "https://jmp2.uk/plu-5dd7ea2aeab5230009986735.m3u8",
+          "idioma": "und",
+          "estadoPermisos": "SIN_VERIFICAR",
+          "prioridad": 1,
+          "tipoReproduccion": "HLS",
+          "descripcion": null
+        }
+      ],
+      "tipo": "CANAL_EN_VIVO",
+      "etiquetas": [],
+      "descripcion": null,
+      "idSerieRelacionada": null,
+      "idFranquicia": null,
+      "verificacion": "PENDIENTE"
+    },
+    {
+      "id": "live-0027",
+      "idAnterior": 27,
+      "nombre": "HBO 2 Latin America",
+      "habilitado": true,
+      "categorias": [
+        "PELICULAS"
+      ],
+      "programacion": "DESCONOCIDA",
+      "emision": "EN_VIVO",
+      "idioma": "und",
+      "clasificacionEdad": "SIN_CLASIFICAR",
+      "imagen": null,
+      "fuentes": [
+        {
+          "id": "src-0027-1",
+          "habilitado": true,
+          "url": "http://45.171.64.30:6060/play/a00i/index.m3u8",
+          "idioma": "und",
+          "estadoPermisos": "SIN_VERIFICAR",
+          "prioridad": 1,
+          "tipoReproduccion": "HLS",
+          "descripcion": null
+        }
+      ],
+      "tipo": "CANAL_EN_VIVO",
+      "etiquetas": [],
+      "descripcion": null,
+      "idSerieRelacionada": null,
+      "idFranquicia": null,
+      "verificacion": "PENDIENTE"
+    },
+    {
+      "id": "live-0028",
+      "idAnterior": 28,
+      "nombre": "HBO Family Latin America",
+      "habilitado": true,
+      "categorias": [
+        "PELICULAS"
+      ],
+      "programacion": "DESCONOCIDA",
+      "emision": "EN_VIVO",
+      "idioma": "und",
+      "clasificacionEdad": "SIN_CLASIFICAR",
+      "imagen": null,
+      "fuentes": [
+        {
+          "id": "src-0028-1",
+          "habilitado": true,
+          "url": "http://45.171.64.30:6060/play/a00k/index.m3u8",
+          "idioma": "und",
+          "estadoPermisos": "SIN_VERIFICAR",
+          "prioridad": 1,
+          "tipoReproduccion": "HLS",
+          "descripcion": null
+        }
+      ],
+      "tipo": "CANAL_EN_VIVO",
+      "etiquetas": [],
+      "descripcion": null,
+      "idSerieRelacionada": null,
+      "idFranquicia": null,
+      "verificacion": "PENDIENTE"
+    },
+    {
+      "id": "live-0029",
+      "idAnterior": 29,
+      "nombre": "HBO Latin America",
+      "habilitado": true,
+      "categorias": [
+        "PELICULAS"
+      ],
+      "programacion": "DESCONOCIDA",
+      "emision": "EN_VIVO",
+      "idioma": "und",
+      "clasificacionEdad": "SIN_CLASIFICAR",
+      "imagen": null,
+      "fuentes": [
+        {
+          "id": "src-0029-1",
+          "habilitado": true,
+          "url": "https://streaming.onnethn.com/HBO/playlist.m3u8",
+          "idioma": "und",
+          "estadoPermisos": "SIN_VERIFICAR",
+          "prioridad": 1,
+          "tipoReproduccion": "HLS",
+          "descripcion": null
+        }
+      ],
+      "tipo": "CANAL_EN_VIVO",
+      "etiquetas": [],
+      "descripcion": null,
+      "idSerieRelacionada": null,
+      "idFranquicia": null,
+      "verificacion": "PENDIENTE"
+    },
+    {
+      "id": "live-0030",
+      "idAnterior": 30,
+      "nombre": "Dragon Ball",
+      "habilitado": true,
+      "categorias": [
+        "ANIME"
+      ],
+      "programacion": "DESCONOCIDA",
+      "emision": "EN_VIVO",
+      "idioma": "und",
+      "clasificacionEdad": "SIN_CLASIFICAR",
+      "imagen": null,
+      "fuentes": [
+        {
+          "id": "src-0030-1",
+          "habilitado": true,
+          "url": "https://jmp2.uk/plu-685a996c7c4f2ad40cb4f276.m3u8",
+          "idioma": "und",
+          "estadoPermisos": "SIN_VERIFICAR",
+          "prioridad": 1,
+          "tipoReproduccion": "HLS",
+          "descripcion": null
+        }
+      ],
+      "tipo": "CANAL_EN_VIVO",
+      "etiquetas": [],
+      "descripcion": null,
+      "idSerieRelacionada": null,
+      "idFranquicia": null,
+      "verificacion": "PENDIENTE"
+    },
+    {
+      "id": "live-0031",
+      "idAnterior": 31,
+      "nombre": "Dragon Ball Z",
+      "habilitado": true,
+      "categorias": [
+        "ANIME"
+      ],
+      "programacion": "DESCONOCIDA",
+      "emision": "EN_VIVO",
+      "idioma": "und",
+      "clasificacionEdad": "SIN_CLASIFICAR",
+      "imagen": null,
+      "fuentes": [
+        {
+          "id": "src-0031-1",
+          "habilitado": true,
+          "url": "https://jmp2.uk/plu-68e8fd7c3ede4398bc69af93.m3u8",
+          "idioma": "und",
+          "estadoPermisos": "SIN_VERIFICAR",
+          "prioridad": 1,
+          "tipoReproduccion": "HLS",
+          "descripcion": null
+        }
+      ],
+      "tipo": "CANAL_EN_VIVO",
+      "etiquetas": [],
+      "descripcion": null,
+      "idSerieRelacionada": null,
+      "idFranquicia": null,
+      "verificacion": "PENDIENTE"
+    },
+    {
+      "id": "live-0032",
+      "idAnterior": 32,
+      "nombre": "One Piece (alternativo)",
+      "habilitado": true,
+      "categorias": [
+        "ANIME"
+      ],
+      "programacion": "DESCONOCIDA",
+      "emision": "EN_VIVO",
+      "idioma": "und",
+      "clasificacionEdad": "SIN_CLASIFICAR",
+      "imagen": null,
+      "fuentes": [
+        {
+          "id": "src-0032-1",
+          "habilitado": true,
+          "url": "https://jmp2.uk/plu-680ba8992472a7200a183eb5.m3u8",
+          "idioma": "und",
+          "estadoPermisos": "SIN_VERIFICAR",
+          "prioridad": 1,
+          "tipoReproduccion": "HLS",
+          "descripcion": null
+        }
+      ],
+      "tipo": "CANAL_EN_VIVO",
+      "etiquetas": [],
+      "descripcion": null,
+      "idSerieRelacionada": null,
+      "idFranquicia": null,
+      "verificacion": "PENDIENTE"
+    },
+    {
+      "id": "live-0033",
+      "idAnterior": 33,
+      "nombre": "Los Caballeros del Zodiaco",
+      "habilitado": true,
+      "categorias": [
+        "ANIME"
+      ],
+      "programacion": "DESCONOCIDA",
+      "emision": "EN_VIVO",
+      "idioma": "und",
+      "clasificacionEdad": "SIN_CLASIFICAR",
+      "imagen": null,
+      "fuentes": [
+        {
+          "id": "src-0033-1",
+          "habilitado": true,
+          "url": "https://jmp2.uk/plu-680ba8c3a48b3ead0db701cc.m3u8",
+          "idioma": "und",
+          "estadoPermisos": "SIN_VERIFICAR",
+          "prioridad": 1,
+          "tipoReproduccion": "HLS",
+          "descripcion": null
+        }
+      ],
+      "tipo": "CANAL_EN_VIVO",
+      "etiquetas": [],
+      "descripcion": null,
+      "idSerieRelacionada": null,
+      "idFranquicia": null,
+      "verificacion": "PENDIENTE"
+    },
+    {
+      "id": "live-0034",
+      "idAnterior": 34,
+      "nombre": "Yu-Gi-Oh! (alternativo)",
+      "habilitado": true,
+      "categorias": [
+        "ANIME"
+      ],
+      "programacion": "DESCONOCIDA",
+      "emision": "EN_VIVO",
+      "idioma": "und",
+      "clasificacionEdad": "SIN_CLASIFICAR",
+      "imagen": null,
+      "fuentes": [
+        {
+          "id": "src-0034-1",
+          "habilitado": true,
+          "url": "https://jmp2.uk/plu-63eb96754e83e70008ab8941.m3u8",
+          "idioma": "und",
+          "estadoPermisos": "SIN_VERIFICAR",
+          "prioridad": 1,
+          "tipoReproduccion": "HLS",
+          "descripcion": null
+        }
+      ],
+      "tipo": "CANAL_EN_VIVO",
+      "etiquetas": [],
+      "descripcion": null,
+      "idSerieRelacionada": null,
+      "idFranquicia": null,
+      "verificacion": "PENDIENTE"
+    },
+    {
+      "id": "live-0035",
+      "idAnterior": 35,
+      "nombre": "Inazuma Eleven",
+      "habilitado": true,
+      "categorias": [
+        "ANIME"
+      ],
+      "programacion": "DESCONOCIDA",
+      "emision": "EN_VIVO",
+      "idioma": "und",
+      "clasificacionEdad": "SIN_CLASIFICAR",
+      "imagen": null,
+      "fuentes": [
+        {
+          "id": "src-0035-1",
+          "habilitado": true,
+          "url": "https://jmp2.uk/plu-632c6df43d2bc5000751f621.m3u8",
+          "idioma": "und",
+          "estadoPermisos": "SIN_VERIFICAR",
+          "prioridad": 1,
+          "tipoReproduccion": "HLS",
+          "descripcion": null
+        }
+      ],
+      "tipo": "CANAL_EN_VIVO",
+      "etiquetas": [],
+      "descripcion": null,
+      "idSerieRelacionada": null,
+      "idFranquicia": null,
+      "verificacion": "PENDIENTE"
+    },
+    {
+      "id": "live-0036",
+      "idAnterior": 36,
+      "nombre": "Lupin",
+      "habilitado": true,
+      "categorias": [
+        "ANIME"
+      ],
+      "programacion": "DESCONOCIDA",
+      "emision": "EN_VIVO",
+      "idioma": "und",
+      "clasificacionEdad": "SIN_CLASIFICAR",
+      "imagen": null,
+      "fuentes": [
+        {
+          "id": "src-0036-1",
+          "habilitado": true,
+          "url": "https://jmp2.uk/plu-683457e5f59cc6a13212fce4.m3u8",
+          "idioma": "und",
+          "estadoPermisos": "SIN_VERIFICAR",
+          "prioridad": 1,
+          "tipoReproduccion": "HLS",
+          "descripcion": null
+        }
+      ],
+      "tipo": "CANAL_EN_VIVO",
+      "etiquetas": [],
+      "descripcion": null,
+      "idSerieRelacionada": null,
+      "idFranquicia": null,
+      "verificacion": "PENDIENTE"
+    },
+    {
+      "id": "live-0037",
+      "idAnterior": 37,
+      "nombre": "Pluto TV Anime",
+      "habilitado": true,
+      "categorias": [
+        "ANIME"
+      ],
+      "programacion": "DESCONOCIDA",
+      "emision": "EN_VIVO",
+      "idioma": "und",
+      "clasificacionEdad": "SIN_CLASIFICAR",
+      "imagen": null,
+      "fuentes": [
+        {
+          "id": "src-0037-1",
+          "habilitado": true,
+          "url": "https://jmp2.uk/plu-608035b8d8705f0007260287.m3u8",
+          "idioma": "und",
+          "estadoPermisos": "SIN_VERIFICAR",
+          "prioridad": 1,
+          "tipoReproduccion": "HLS",
+          "descripcion": null
+        }
+      ],
+      "tipo": "CANAL_EN_VIVO",
+      "etiquetas": [],
+      "descripcion": null,
+      "idSerieRelacionada": null,
+      "idFranquicia": null,
+      "verificacion": "PENDIENTE"
+    },
+    {
+      "id": "live-0038",
+      "idAnterior": 38,
+      "nombre": "Death Note",
+      "habilitado": true,
+      "categorias": [
+        "ANIME"
+      ],
+      "programacion": "DESCONOCIDA",
+      "emision": "EN_VIVO",
+      "idioma": "und",
+      "clasificacionEdad": "SIN_CLASIFICAR",
+      "imagen": null,
+      "fuentes": [
+        {
+          "id": "src-0038-1",
+          "habilitado": true,
+          "url": "https://jmp2.uk/plu-626c2ed933a2890007e91422.m3u8",
+          "idioma": "und",
+          "estadoPermisos": "SIN_VERIFICAR",
+          "prioridad": 1,
+          "tipoReproduccion": "HLS",
+          "descripcion": null
+        }
+      ],
+      "tipo": "CANAL_EN_VIVO",
+      "etiquetas": [],
+      "descripcion": null,
+      "idSerieRelacionada": null,
+      "idFranquicia": null,
+      "verificacion": "PENDIENTE"
+    }
+  ]
+}
