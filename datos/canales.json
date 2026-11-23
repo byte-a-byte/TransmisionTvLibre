@@ -1218,6 +1218,38 @@
       "idSerieRelacionada": null,
       "idFranquicia": null,
       "verificacion": "PENDIENTE"
+    },
+    {
+      "id": "live-0039",
+      "idAnterior": 39,
+      "nombre": "Nickelodeon Las Tortugas Ninja",
+      "habilitado": true,
+      "categorias": [
+        "DIBUJOS"
+      ],
+      "programacion": "DESCONOCIDA",
+      "emision": "EN_VIVO",
+      "idioma": "und",
+      "clasificacionEdad": "SIN_CLASIFICAR",
+      "imagen": null,
+      "fuentes": [
+        {
+          "id": "src-0039-1",
+          "habilitado": true,
+          "url": "https://jmp2.uk/plu-63dd5d7a4e83e700088fbca8.m3u8",
+          "idioma": "und",
+          "estadoPermisos": "SIN_VERIFICAR",
+          "prioridad": 1,
+          "tipoReproduccion": "HLS",
+          "descripcion": null
+        }
+      ],
+      "tipo": "CANAL_EN_VIVO",
+      "etiquetas": [],
+      "descripcion": null,
+      "idSerieRelacionada": null,
+      "idFranquicia": null,
+      "verificacion": "PENDIENTE"
     }
   ]
 }
