@@ -1,12 +1,12 @@
 {
   "versionEsquema": 1,
-  "versionCatalogo": "2.1.0",
+  "versionCatalogo": "2.1.1",
   "urlBaseRemota": null,
   "requiereConfigurarUrlBaseRemota": true,
   "archivos": [
     {
       "ruta": "canales.json",
-      "sha256": "6a1c870f38595b1e3806ce082330a9a63f8aa26831c21d49855f686c477c9368"
+      "sha256": "e8a745a440b609aa1681875300a9d842845338f929a2a6908b2782d0745d4353"
     },
     {
       "ruta": "series.json",
